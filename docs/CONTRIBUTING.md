@@ -4,7 +4,7 @@ First off, thank you for considering contributing to the o-Do-List-Apple-Ecosyst
 
 ## Code of Conduct
 
-Our Code of Conduct [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) is a part of this guide. By contributing, you agree to abide by its terms.
+Our Code of Conduct [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) is a part of this guide. By contributing, you agree to abide by its terms.
 
 ## Open Development
 
