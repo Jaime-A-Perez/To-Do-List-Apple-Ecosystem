@@ -36,7 +36,7 @@ The process described here has several goals:
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Follow all instructions in [the template]()
+1. Follow all instructions in [the template](./pull_request_template.md)
 2. Follow the [styleguides](#styleguides)
 3. After you submit your pull request, verify that all [status checks](#status-checks) are passing
 
