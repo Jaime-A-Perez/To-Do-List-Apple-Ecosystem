@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89365B942B1E667100A8D3D7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89365B932B1E667100A8D3D7 /* SignInView.swift */; };
+		89365B962B1E669600A8D3D7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89365B952B1E669600A8D3D7 /* SignUpView.swift */; };
 		898259B12B02783500DCD026 /* SingleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B02B02783500DCD026 /* SingleTask.swift */; };
 		898259B52B0278BD00DCD026 /* SingleTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */; };
 		898259B62B0278BD00DCD026 /* SingleTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89365B932B1E667100A8D3D7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		89365B952B1E669600A8D3D7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		898259B02B02783500DCD026 /* SingleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTask.swift; sourceTree = "<group>"; };
 		898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTaskViewModel.swift; sourceTree = "<group>"; };
 		89D248CF2B018B7A009C1C3B /* ToDoListAppPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListAppPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,9 +84,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89365B922B1E65D100A8D3D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				89365B932B1E667100A8D3D7 /* SignInView.swift */,
+				89365B952B1E669600A8D3D7 /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		898259AD2B02775F00DCD026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				89365B922B1E65D100A8D3D7 /* Login */,
 				89D248D42B018B7A009C1C3B /* ContentView.swift */,
 			);
 			path = Views;
@@ -295,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D248DC2B018B7D009C1C3B /* Persistence.swift in Sources */,
+				89365B942B1E667100A8D3D7 /* SignInView.swift in Sources */,
 				89D248D52B018B7A009C1C3B /* ContentView.swift in Sources */,
 				89D248D32B018B7A009C1C3B /* ToDoListAppProApp.swift in Sources */,
+				89365B962B1E669600A8D3D7 /* SignUpView.swift in Sources */,
 				898259B52B0278BD00DCD026 /* SingleTaskViewModel.swift in Sources */,
 				898259B12B02783500DCD026 /* SingleTask.swift in Sources */,
 				89D248DF2B018B7D009C1C3B /* ToDoListAppPro.xcdatamodeld in Sources */,
