@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		89365B942B1E667100A8D3D7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89365B932B1E667100A8D3D7 /* SignInView.swift */; };
 		89365B962B1E669600A8D3D7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89365B952B1E669600A8D3D7 /* SignUpView.swift */; };
+		8971C1BF2B3F6C4400BDBFAB /* AuthModels in Resources */ = {isa = PBXBuildFile; fileRef = 8971C1BE2B3F6C4400BDBFAB /* AuthModels */; };
+		8971C1C12B3F6CA600BDBFAB /* AuthViewModels in Resources */ = {isa = PBXBuildFile; fileRef = 8971C1C02B3F6CA600BDBFAB /* AuthViewModels */; };
 		898259B12B02783500DCD026 /* SingleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B02B02783500DCD026 /* SingleTask.swift */; };
 		898259B52B0278BD00DCD026 /* SingleTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */; };
 		898259B62B0278BD00DCD026 /* SingleTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		89365B932B1E667100A8D3D7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		89365B952B1E669600A8D3D7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8971C1BE2B3F6C4400BDBFAB /* AuthModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AuthModels; sourceTree = "<group>"; };
+		8971C1C02B3F6CA600BDBFAB /* AuthViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AuthViewModels; sourceTree = "<group>"; };
 		898259B02B02783500DCD026 /* SingleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTask.swift; sourceTree = "<group>"; };
 		898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTaskViewModel.swift; sourceTree = "<group>"; };
 		89D248CF2B018B7A009C1C3B /* ToDoListAppPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListAppPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,7 @@
 		898259AE2B02777300DCD026 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8971C1BE2B3F6C4400BDBFAB /* AuthModels */,
 				898259B02B02783500DCD026 /* SingleTask.swift */,
 			);
 			path = Models;
@@ -113,6 +118,7 @@
 		898259AF2B02778600DCD026 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8971C1C02B3F6CA600BDBFAB /* AuthViewModels */,
 				898259B42B0278BD00DCD026 /* SingleTaskViewModel.swift */,
 			);
 			path = ViewModels;
@@ -284,6 +290,8 @@
 			files = (
 				89D248DA2B018B7D009C1C3B /* Preview Assets.xcassets in Resources */,
 				89D248D72B018B7D009C1C3B /* Assets.xcassets in Resources */,
+				8971C1BF2B3F6C4400BDBFAB /* AuthModels in Resources */,
+				8971C1C12B3F6CA600BDBFAB /* AuthViewModels in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
